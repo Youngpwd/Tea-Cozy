@@ -157,11 +157,12 @@ li a:hover {
 .box {
   background-color: rgba(0, 0, 0, 0.829);
   width: 300px;
-  min-width: auto;
+  min-width: 150px;
   height: auto;
   text-align: center;
   padding: 0px 5px;
   border: 1px solid seashell;
+  flex-shrink: 2;
 }
 
 #east-box {
@@ -182,3 +183,31 @@ li a:hover {
   margin: 50px 0px 0px 20px;
 }
 
+@media only screen and (max-width: 480px) {
+  .location-section {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .box-container {
+      width: 50%;
+  }
+
+  .box {
+    font-size: 18px;
+    height: auto;
+  }
+
+  #east-box {
+    margin: 1px;
+  }
+
+  .mission-statement {
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .img-container {
+    margin: 10px auto;
+  }
+}
