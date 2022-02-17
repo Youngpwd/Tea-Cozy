@@ -55,6 +55,10 @@ li a {
   flex-grow: 1;
 }
 
+li a:hover {
+  text-decoration: none;
+}
+
 /* Banner */
 .banner {
   max-width: 1800px;
@@ -166,14 +170,28 @@ li a {
 
 /* Footer */
 .contact {
-    display: flex;
-    flex-flow: column nowrap;
-    height: 200px;
-    align-items: center;
-    margin: 0px 0px 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 200px;
+  align-items: center;
+  margin: 0px 0px 20px;
 }
 
 .copyright {
-    text-align: left;
-    margin: 50px 0px 0px 20px;
+  text-align: left;
+  margin: 50px 0px 0px 20px;
+}
+
+@media screen and (max-width: 580px) {
+  .page-links a {
+    font-size: 30px;
+  }
+
+  .page-links li {
+      margin: 10px 0px;
+  }
+
+  .top-bar {
+      height: 200px;
+  }
 }
