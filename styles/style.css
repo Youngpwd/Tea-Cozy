@@ -190,18 +190,31 @@ li a:hover {
   }
 
   .box-container {
-      width: 50%;
+    width: 50%;
   }
 
   .box {
-    font-size: 18px;
+    font-size: 15px;
     height: auto;
+    padding: 0;
+    width: 150px;
+    margin: 10px 0px;
+    position: relative;
   }
 
   #east-box {
     margin: 1px;
+    bottom: 15%;
+  }
+  #downtown-box {
+    top: 90%;
+    left: 20%;
   }
 
+  #oakdale-box {
+    top: 90%;
+    right: 20%;
+  }
   .mission-statement {
     font-size: 16px;
     width: 100%;
