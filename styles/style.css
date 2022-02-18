@@ -204,16 +204,15 @@ li a:hover {
 
   #east-box {
     margin: 1px;
-    bottom: 15%;
+    bottom: 50px;
   }
   #downtown-box {
-    top: 90%;
-    left: 20%;
+    top: 140px;
+    left: 20px;
   }
-
   #oakdale-box {
-    top: 90%;
-    right: 20%;
+    top: 145px;
+    right: 20px;
   }
   .mission-statement {
     font-size: 16px;
