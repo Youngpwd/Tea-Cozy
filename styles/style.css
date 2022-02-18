@@ -222,4 +222,31 @@ li a:hover {
   .img-container {
     margin: 10px auto;
   }
+  .contact {
+    height: 100px;
+    font-size: 16px;
+    align-items: center;
+  }
+  .contact h2,
+  .contact h5 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact h5 {
+    align-self: center;
+    margin-top: 40px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .page-links {
+      font-size: 17px;
+  }
+
+  .page-links li {
+    padding: 2px;
+  }
 }
